@@ -7,13 +7,20 @@ import json
 import difflib
 import pysnooper
 import os
+import random
 
 def init_h1_cookies(hostsession):
+	headers = ["Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+		   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+		   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.50",
+		   "Mozi11a/5.0(X11; Ubuntu; Linux i686; rv:15.0) Cecko/20100101 Firefox/15.0.1"]
 	cookies = {"Content-type": "application/json", 
 	"Host": "hackerone.com",
-	"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
 	"Accept": "*/*"}
+	rn = random.randint(0,3)
+	header = {"User-Agent":headers[rn]}
 	cookies.update(hostsession)
+	cookies.update(header)
 	return cookies
 
 def get_h1_token(h1_cookies):
