@@ -8,6 +8,7 @@ import difflib
 import pysnooper
 import os
 import random
+import time
 
 def init_h1_cookies(hostsession):
 	headers = ["Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
