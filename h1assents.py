@@ -68,9 +68,9 @@ def get_h1_allprograms(token):
 		os.system("rm all_assents.txt")
 	if len(all_assents):
 		with open("all_assents.txt", "r+") as assents:
-			for assents in all_assents:
-				print (assents)
-				assents.write(team+"\n")
+			for assent in all_assents:
+				print (assent)
+				assents.write(assent+"\n")
 	print ("end get_h1_allprograms")
 
 def get_h1_assets(cookies,handle):
