@@ -86,7 +86,7 @@ def get_h1_assets(cookies,handle):
 	query = base64.b64decode(GET_ASSETS_QUERY)
 	query = query.replace(b"__REPLACEME__", handle.encode())
 	max_retry = 0
-	while max_retry ＜ 3:
+	while max_retry<3:
 		try:
 			resp = requests.post('https://hackerone.com/graphql',headers=cookies,data=query)
 			data = json.loads(resp.text)
