@@ -62,10 +62,9 @@ def get_h1_allprograms(token):
 		get_h1_assets(cookies, team)
 
 	#write all assent to file
-	if not os.path.isfile('./all_assents.txt'): #check if programs.txt exist, if not create a new one
-		os.system("touch all_assents.txt")
-	else:
+	if os.path.isfile('./all_assents.txt'): #check if programs.txt exist, if not create a new one
 		os.system("rm all_assents.txt")
+	os.system("touch all_assents.txt")
 	if len(all_assents):
 		with open("all_assents.txt", "r+") as assents:
 			for assent in all_assents:
