@@ -1,0 +1,68 @@
+[servfail-refused-hosts] [dns] [info] cloud.enjin.iokovan.cloud.enjin.io
+[servfail-refused-hosts] [dns] [info] codex.wordpress.orgcodex.bbpress.orgcodex.buddypress.org
+[mx-service-detector:Google Apps] [dns] [info] 1debit.com
+[mx-service-detector:Google Apps] [dns] [info] GitHub.com
+[mx-service-detector:Google Apps] [dns] [info] accounts.logi.com
+[mx-service-detector:Office 365] [dns] [info] 2asc.com
+[mx-service-detector:Office 365] [dns] [info] Alle.com
+[mx-service-detector:Google Apps] [dns] [info] Alle.com
+[mx-service-detector:Office 365] [dns] [info] alexamerican.com
+[mx-service-detector:Office 365] [dns] [info] americansystems.com
+[mx-service-detector:Office 365] [dns] [info] americansystems.info
+[mx-service-detector:Google Apps] [dns] [info] agar.io
+[mx-service-detector:Office 365] [dns] [info] ascsites.com
+[mx-service-detector:Google Apps] [dns] [info] atavist.com
+[cname-service-detector:zendesk] [dns] [info] apps.zendesk.com
+[mx-service-detector:Google Apps] [dns] [info] bitaccessbtm.com
+[mx-service-detector:Google Apps] [dns] [info] bridgeapi.io
+[mx-service-detector:Google Apps] [dns] [info] booth.pm
+[mx-service-detector:Google Apps] [dns] [info] chime.com
+[mx-service-detector:Google Apps] [dns] [info] chimebank.com
+[mx-service-detector:Google Apps] [dns] [info] bitso.com
+[mx-service-detector:Google Apps] [dns] [info] chimecard.com
+[mx-service-detector:Google Apps] [dns] [info] cloud.gov
+[mx-service-detector:Google Apps] [dns] [info] cougarlife.com
+[mx-service-detector:Google Apps] [dns] [info] coda.io
+[mx-service-detector:Google Apps] [dns] [info] coinbase.com
+[mx-service-detector:Google Apps] [dns] [info] curve.app
+[servfail-refused-hosts] [dns] [info] www.ikdeclareer.nu
+[mx-service-detector:Google Apps] [dns] [info] curve.com
+[mx-service-detector:Google Apps] [dns] [info] cs.money
+[cname-service-detector:zendesk] [dns] [info] developer.zendesk.com
+[mx-service-detector:Office 365] [dns] [info] digitalaccess.com
+[servfail-refused-hosts] [dns] [info] www.zltackatypuc.sk
+[mx-service-detector:Office 365] [dns] [info] emsolve.com
+[mx-service-detector:Google Apps] [dns] [info] establishedmen.com
+[mx-service-detector:Google Apps] [dns] [info] etorox.com
+[mx-service-detector:Office 365] [dns] [info] ddlomni.com
+[mx-service-detector:Google Apps] [dns] [info] faa.st
+[mx-service-detector:Google Apps] [dns] [info] delta.app
+[mx-service-detector:Google Apps] [dns] [info] etoropartners.com
+[mx-service-detector:Google Apps] [dns] [info] fortmatic.com
+[cname-service-detector:zendesk] [dns] [info] h1-your-domain.zendesk.com
+[mx-service-detector:Google Apps] [dns] [info] gitlab.com
+[spoofable-spf-records-ptr] [dns] [info] insights.therealreal.com
+[mx-service-detector:Office 365] [dns] [info] essworld.net
+[mx-service-detector:Google Apps] [dns] [info] hasura.io
+[cname-service-detector:zendesk] [dns] [info] help.creditkarma.com
+[mx-service-detector:Google Apps] [dns] [info] hackerone.com
+[mx-service-detector:Google Apps] [dns] [info] getharvest.com
+[mx-service-detector:Google Apps] [dns] [info] gnip.com
+[mx-service-detector:Google Apps] [dns] [info] holvi.com
+[mx-service-detector:Google Apps] [dns] [info] id.logi.com
+[cname-service-detector:github] [dns] [info] kubernetes-csi.github.io
+[mx-service-detector:Google Apps] [dns] [info] k8s.io
+[mx-service-detector:Google Apps] [dns] [info] kubernetes.io
+[mx-service-detector:Google Apps] [dns] [info] lddr.io
+[mx-service-detector:Office 365] [dns] [info] loanbuilder.com
+[mx-service-detector:Office 365] [dns] [info] magento.com
+[mx-service-detector:Google Apps] [dns] [info] moneybird.com
+[mx-service-detector:Google Apps] [dns] [info] irccloud.com
+[mx-service-detector:Google Apps] [dns] [info] lob.com
+[mx-service-detector:Google Apps] [dns] [info] luckeyhomes.com
+[mx-service-detector:Google Apps] [dns] [info] monday.com
+[mx-service-detector:Office 365] [dns] [info] neosconnect.com
+[mx-service-detector:Office 365] [dns] [info] nintendo-europe-media.com
+[mx-service-detector:Google Apps] [dns] [info] mopub.com
+[mx-service-detector:Google Apps] [dns] [info] mybfx.co
+[mx-service-detector:Go

